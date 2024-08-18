@@ -1,0 +1,69 @@
+/* Color del footer */
+#footer {
+  background-color: #8DB600; 
+  width: 100%; 
+  bottom: 0; 
+}
+
+#footer .row {
+  margin: 0;
+}
+
+#footer .col {
+  padding: 10px; 
+}
+
+#footer a {
+  color: #ffffff; 
+  margin: 0 10px; 
+}
+
+/*color cards*/
+.card {
+  background: linear-gradient(to bottom right, #00c6ff, #0072ff); 
+  border: 1px solid #ddd; 
+  color: white; 
+}
+
+.card .card-title, .card .card-text {
+  color: white; 
+}
+
+
+/*TAMAÑO DE CARS*/
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ddd; 
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 1rem; 
+}
+
+
+.card-img-top {
+  height: 180px; 
+  object-fit: cover; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12.col-md-3 {
+  display: flex;
+  justify-content: center; 
+  align-items: stretch; 
+}
+
+
+.mb-4 {
+  margin-bottom: 1.5rem; 
+}
