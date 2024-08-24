@@ -108,25 +108,37 @@
 </div>
 
 
-    <!-- Sección de contacto -->
-    <div class="row">
-      <div class="row border-bottom border-light border-opacity-25">
-        <h1 class="text-center py-4" id="Contactos">Contacto</h1>
+<!-- Sección de contacto -->
+<div class="row">
+  <div class="row border-bottom border-light border-opacity-25">
+    <h1 class="text-center py-4" id="Contactos">Contacto</h1>
+  </div>
+
+  <form class="mb-4 mt-4 needs-validation" novalidate>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+      <div class="invalid-feedback">
+        Introduce un correo electrónico válido.
       </div>
-     
-      <form class="mb-4 mt-4">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-        </div>
-        <button type="submit" class="btn btn-info text-white">Enviar</button>
-      </form>
+      <div class="valid-feedback">
+        correo electrónico válido
+      </div>
     </div>
-  </main>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+      <div class="invalid-feedback">
+        Escribe un mensaje.
+      </div>
+      <div class="valid-feedback">
+        Mensaje escrito
+      </div>
+    </div>
+    <button type="submit" class="btn btn-info text-white">Enviar</button>
+  </form>
+</div>
+
 
 <!-- Pie de página y redes sociales -->
 <footer id="footer" class="text-white">
