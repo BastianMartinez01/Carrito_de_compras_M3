@@ -20,50 +20,72 @@
 
 /*color cards*/
 .card {
-  background: linear-gradient(to bottom right, #00c6ff, #0072ff); 
+  background: white;  
   border: 1px solid #ddd; 
   color: white; 
 }
 
+/*titulo de cards*/
 .card .card-title, .card .card-text {
-  color: white; 
+  color: black; 
 }
 
+/*centrar  textocards*/
 
-/*TAMAÑO DE CARS*/
-.card {
-  display: flex;
-  flex-direction: column;
+.card-footer {
+  text-align: center;
+}
+
+/* Estilos para hacer que el footer siempre esté al final */
+html, body {
   height: 100%;
-  border: 1px solid #ddd; 
-}
-
-.card-body {
-  flex: 1;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  padding: 1rem; 
+  flex-direction: column; 
+
+}
+
+/* tamaño del contenedor */
+#contenedor {
+  flex: 1; 
+  padding: 20px; 
+}
+
+/* Color y propiedades del footer */
+footer {
+  background-color: #f8f9fa; 
+  border-top: 1px solid #dee2e6; 
+  padding: 10px 0; 
 }
 
 
-.card-img-top {
-  height: 180px; 
-  object-fit: cover; 
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col-12.col-md-3 {
-  display: flex;
-  justify-content: center; 
-  align-items: stretch; 
+/* Color de la barra de navegacion  */
+.navbar {
+  background-color: #8DB600; 
 }
 
 
-.mb-4 {
-  margin-bottom: 1.5rem; 
+/* Color del fondo de la pagina */
+.bg-white {
+  background-color: #ffffff; 
 }
+
+/* Color del texto del total */
+.text-black {
+  color: black;
+}
+
+/*Estilo del icono de cantidad en el carrito*/
+.contador {
+  display: inline-block;
+  background-color: red; 
+  color: white; 
+  border-radius: 50%; 
+  width: 20px; 
+  height: 20px; 
+  text-align: center; 
+  line-height: 20px; 
+  position: relative; 
+  margin-left: 5px; 
+}
+
